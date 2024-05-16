@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  body {
+    @apply overflow-x-hidden h-screen flex items-center justify-center
+  }
+}
+.container {
+  @apply max-w-7xl mx-auto px-5 w-full md:px-2 xxs:px-1
+}
